@@ -1,0 +1,17 @@
+{
+    "name": "qbo-explorer",
+    "require": {
+    	"php": ">=5.6.0",
+        "league/oauth2-client": "^2.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "atk4/ui": "^1.1.10",
+        "atk4/data": "1.2.*",
+        "atk4/core": "1.2.*",
+        "psy/psysh": "^0.7.2",
+        "fzaninotto/faker": "*"
+    },
+    "autoload": {
+        "psr-4": {"atk4\\ui\\":"src/"}
+    }
+
+}
